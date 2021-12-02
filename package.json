@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/katherineyevsukov/node-api4-project/issues"
   },
-  "homepage": "https://github.com/katherineyevsukov/node-api4-project#readme"
+  "homepage": "https://github.com/katherineyevsukov/node-api4-project#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
 }
