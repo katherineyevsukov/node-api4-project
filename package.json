@@ -1,0 +1,20 @@
+{
+  "name": "api4-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katherineyevsukov/node-api4-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katherineyevsukov/node-api4-project/issues"
+  },
+  "homepage": "https://github.com/katherineyevsukov/node-api4-project#readme"
+}
