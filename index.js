@@ -8,22 +8,22 @@ server.use(express.static(path.join(__dirname, "client/build")));
 
 const PORT = process.env.PORT || 9000;
 
-app.get("/", (req, res) => {
+server.get("/", (req, res) => {
   res.json({ message: "You have entered Kat's API" });
 });
 
-app.get("/api/users", (req, res) => {
+server.get("/api/users", (req, res) => {
   res.json({
     users: [{ username: "Sam" }, { username: "Kat" }, { username: "Clem" }],
   });
 });
 
-app.post("/api/register", (req, res) => {
+server.post("/api/register", (req, res) => {
   const newUser = req.body;
   res.status(201).json(newUser);
 });
 
-app.post("/api/login", (req, res) => {
+server.post("/api/login", (req, res) => {
   if (req.body.username && req.body.password) {
     res.status(200).json({ message: `Welcome ${req.body.username}` });
   } else {
